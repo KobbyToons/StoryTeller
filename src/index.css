@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0b0f19;
+    color: #e2e8f0;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom scrollbars for script editors and layout canvases */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Comic Script Monospace Typography */
+.font-script {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Comic speech balloon aesthetics */
+.comic-balloon {
+  position: relative;
+  border: 2px solid #0f172a;
+  background-color: #ffffff;
+  color: #0f172a;
+  border-radius: 12px;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.comic-caption {
+  position: relative;
+  border: 1.5px solid #d97706;
+  background-color: #fef3c7;
+  color: #78350f;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.comic-sfx {
+  font-family: Impact, "Arial Black", sans-serif;
+  text-shadow: 2px 2px 0px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #ef4444;
+  letter-spacing: 0.05em;
+  transform: rotate(-3deg);
+}

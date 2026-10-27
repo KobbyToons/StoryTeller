@@ -1,0 +1,6 @@
+{
+  "name": "Sequential: Story Pipeline & Panel Pacing Studio",
+  "description": "A professional sequential art and animation production pipeline moving from logline and pitch bible down to beat sheets, dual-format comic/screenplay scripting, panel layout eye-flow analysis, and animatic pacing locks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
